@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
     nodejs-app:
+        env_file: .env
         build:
             context: .
             dockerfile: Dockerfile
