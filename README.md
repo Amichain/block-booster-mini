@@ -8,7 +8,7 @@ On newly created Avalanche L1 blockchains, the Snowman consensus protocol optimi
 
 If the transaction rate is low, confirmation times can be slow and may cause affected dApps to become stuck.
 
-This script addresses this by sending a dummy transaction (0 value to the zero address) whenever a new block is detected, forcing faster block creation and enabling sub-second transaction confirmations.
+This script addresses this by sending a dummy transaction (0 value to the zero address) whenever a new block is detected, forcing faster block creation and enabling fast transaction confirmations.
 
 ## Features
 
